@@ -104,6 +104,10 @@
     font-family:f-bolder;
     font-size: x-large;
 }
+.txt-bold:hover {
+    color: hsl(47, 88%, 63%); /* Change color on hover */
+    cursor: url('./assets/images/noun-pointer-glove-cursor-4387059.png'), pointer; 
+}
 .dash {
     font-family: dash-Font;
     color: hsl(0, 0%, 42%);
