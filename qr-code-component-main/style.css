@@ -12,6 +12,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .textmain {
@@ -33,7 +34,7 @@
   }
 .card{
     height: fit-content;
-    width: 350px;
+    width: 320px;
     background-color:  hsl(0, 0%, 100%);
     display: flex;
     justify-content: center;
@@ -45,7 +46,7 @@
 .card img{
     width: 92%;
     margin: 12px;
-    border-radius: 25px;
+    border-radius: 15px;
 }
 
 .attribution {
