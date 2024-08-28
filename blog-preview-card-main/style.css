@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: firstFont;
+    src: url('./assets/fonts/Figtree-VariableFont_wght.ttf');
+    font-weight: 900;
+}@font-face {
+    font-family: dash-Font;
+    src: url('./assets/fonts/Figtree-VariableFont_wght.ttf');
+    font-weight:400 ;
+}
+@font-face {
+    font-family:f-static;
+    src: url('./assets/fonts/Figtree-VariableFont_wght.ttf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: f-bolder;
+    src: url(./assets/fonts/static/Figtree-ExtraBold.ttf);
+    font-weight: 900;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 370px;
+    height: 500px;
+    border: 1.5px;
+    border-style: solid;
+    border-radius: 20px;
+    box-shadow: 10px 10px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top:15px ;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+.info{
+    width: 90%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.info p{
+    margin-left: 15px;
+    font-family: f-bolder;
+}
+.info img{
+    height: 30px;
+}
+.txtArea{
+    width: 95%;
+  ;
+}
+.txtArea p {
+    margin: 20px;
+}
+.svg-1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 0px;
+}
+.svg-1 svg{
+    border-radius: 20px;
+}
+.txt-1{
+    font-family: firstFont;
+    background-color: hsl(47, 88%, 63%);
+    width: fit-content;
+    padding: 8px;
+    border-radius: 4px;
+}
+.txt-2{
+    font-family: f-static;
+}
+.txt-bold{
+    font-family:f-bolder;
+    font-size: x-large;
+}
+.dash {
+    font-family: dash-Font;
+    color: hsl(0, 0%, 42%);
+}
