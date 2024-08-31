@@ -11,13 +11,16 @@
     --secondary:hsl(0, 0%, 12%);
     
 }
-@font-face {
+@font-face  {
     font-family: largen;
-    src: url('./assets/fonts/static/Inter-Bold.ttf')'
+    src: url('./assets/fonts/static/Inter-Bold.ttf');
+    font-display:swap;
+    
 }
 @font-face {
     font-family: simply;
     src: url('./assets/fonts/static/Inter-SemiBold.ttf');
+    font-display:swap;
 
 }
 body{
