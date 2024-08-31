@@ -87,6 +87,11 @@ button{
    border-style: none;
 
 }
+button:active{
+    margin: 8px;
+    width: 100%;
+    padding: 15px;
+}
 button:hover{
     background-color: var(--active);
     color: var(--lighten);
