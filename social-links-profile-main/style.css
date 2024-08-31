@@ -85,6 +85,7 @@ button{
     background-color: var(--lighten);
     box-shadow: none;
    border-style: none;
+   transition: .1s;
 
 }
 button:active{
