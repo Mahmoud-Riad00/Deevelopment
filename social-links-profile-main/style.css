@@ -1,4 +1,8 @@
-
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
 :root {
     --sada: hsl(0, 0%, 100%);
     --basic: hsl(0, 0%, 8%);
