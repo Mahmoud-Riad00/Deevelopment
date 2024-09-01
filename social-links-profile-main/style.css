@@ -166,10 +166,15 @@ a {
     .buttons a {
         padding: 13px;
         font-size: small;
-        min-width: 95%;
+        width: 95%;
+        margin: 8px;
     }
 
-    .JopInfo, .PersonName, .personLocation {
-        font-size: small;
+    .PersonName{
+        font-size: medium;
+    } 
+    .personLocation ,.JopInfo{
+        font-size:small;
     }
+
 }
