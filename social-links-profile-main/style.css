@@ -104,9 +104,7 @@ span {
 
 }
 
-.button a:any-link {
-background-color: aliceblue;
-}
+
 
 .buttons a:hover {
     background-color: var(--active);
@@ -152,12 +150,26 @@ a {
     margin-top: 10px;
 }
 @media only screen and (max-width:375px) {
-    .buttons{
-        width: 80%;
-    }
-    .card{
-        min-width: 18%;
-        padding: 8px 35px ;
+    .container {
+        padding: 15px;
     }
     
+    .card {
+        width: 100%;
+        padding: 15px;
+    }
+    
+    .card-image img {
+        height: 70px;
+    }
+
+    .buttons a {
+        padding: 13px;
+        font-size: small;
+    }
+
+    .JopInfo, .PersonName, .personLocation {
+        font-size: small;
+    }
+
 }
