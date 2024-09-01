@@ -1,62 +1,70 @@
-*{
+* {
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
 }
-:root{
+
+:root {
     --sada: hsl(0, 0%, 100%);
     --basic: hsl(0, 0%, 8%);
-    --active:hsl(75, 94%, 57%);
+    --active: hsl(75, 94%, 57%);
     --lighten: hsl(0, 0%, 20%);
-    --secondary:hsl(0, 0%, 12%);
-    
+    --secondary: hsl(0, 0%, 12%);
+
 }
-@font-face  {
+
+@font-face {
     font-family: largen;
     src: url('./assets/fonts/static/Inter-Bold.ttf');
-    font-display:swap;
-    
+    font-display: swap;
+
 }
+
 @font-face {
     font-family: simply;
     src: url('./assets/fonts/static/Inter-SemiBold.ttf');
-    font-display:swap;
+    font-display: swap;
 
 }
-body{
+
+body {
     min-width: 100vw;
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.container{
+
+.container {
     min-width: 100vw;
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color:var(--basic);
+    background-color: var(--basic);
 }
-.card{
+
+.card {
     min-width: 23%;
     padding: 50px;
-    margin:20px 5px;
+    margin: 20px 5px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color:var(--secondary);
+    background-color: var(--secondary);
     border-radius: 10px;
 }
-.card-info{
+
+.card-info {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-span{
+
+span {
     margin: 5px;
     min-width: 100%;
     text-align: center;
@@ -65,67 +73,84 @@ span{
     flex-direction: column;
 }
 
-.card-image img{
+.card-image img {
     border-radius: 50%;
     height: 90px;
 }
-.buttons{
+
+.card-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.buttons {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    max-width:fit-content;
+    max-width: fit-content;
 }
-button{
+
+button {
     margin: 10px;
     width: 105%;
     padding: 17px;
     border-radius: 7px;
     background-color: var(--lighten);
     box-shadow: none;
-   border-style: none;
-   transition: .1s;
+    border-style: none;
+    transition: .1s;
 
 }
-button:active{
+
+button:active {
     margin: 8px;
     width: 100%;
     padding: 15px;
 }
-button:hover{
+
+button:hover {
     background-color: var(--active);
     color: var(--lighten);
-}button:hover a{
+}
+
+button:hover a {
     color: var(--lighten);
 }
+
 button a {
     text-decoration: none;
     color: var(--sada);
     font-family: simply;
-    font-size:medium
+    font-size: medium
 }
+
 .JopInfo {
     color: var(--sada);
     font-family: simply;
-    font-size:medium
+    font-size: medium
 }
-.PersonName{
+
+.PersonName {
     color: var(--sada);
     font-family: largen;
-    font-size:xx-large;
+    font-size: xx-large;
     word-spacing: 1px;
     margin: 5px;
 }
-.personLocation{
+
+.personLocation {
     color: var(--active);
     margin: 5px;
     font-family: simply;
-    font-size:medium
+    font-size: medium
 }
-.attribution{
+
+.attribution {
     color: var(--sada);
     font-family: simply;
-    font-size:medium
-
+    font-size: medium
 }
