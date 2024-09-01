@@ -149,13 +149,13 @@ a {
     font-size: medium;
     margin-top: 10px;
 }
-@media only screen and (max-width:375px) {
+@media only screen and (max-width:425PX) {
     .container {
         padding: 15px;
     }
     
     .card {
-        width: 100%;
+        width: 95%;
         padding: 15px;
     }
     
@@ -171,5 +171,4 @@ a {
     .JopInfo, .PersonName, .personLocation {
         font-size: small;
     }
-
 }
