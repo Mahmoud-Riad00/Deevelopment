@@ -155,7 +155,7 @@ a {
     }
     
     .card {
-        width: 95%;
+    min-width: 95%;
         padding: 15px;
     }
     
@@ -166,6 +166,7 @@ a {
     .buttons a {
         padding: 13px;
         font-size: small;
+        min-width: 95%;
     }
 
     .JopInfo, .PersonName, .personLocation {
