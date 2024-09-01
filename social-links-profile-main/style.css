@@ -151,3 +151,9 @@ a {
     font-size: medium;
     margin-top: 10px;
 }
+@media only screen and (max-width:375px) {
+    .buttons{
+        width: 80%;
+    }
+    
+}
