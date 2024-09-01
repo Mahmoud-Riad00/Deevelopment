@@ -1,4 +1,4 @@
-ش
+
 :root {
     --sada: hsl(0, 0%, 100%);
     --basic: hsl(0, 0%, 8%);
@@ -89,7 +89,7 @@ span {
     max-width: fit-content;
 }
 
-button {
+.buttons a{
     margin: 10px;
     width: 105%;
     padding: 17px;
@@ -101,13 +101,11 @@ button {
 
 }
 
-button:active {
-    margin: 8px;
-    width: 100%;
-    padding: 15px;
+.button a:active {
+background-color: aliceblue;
 }
 
-button:hover {
+.buttons a:hover {
     background-color: var(--active);
     color: var(--lighten);
 }
@@ -116,7 +114,7 @@ button:hover a {
     color: var(--lighten);
 }
 
-button a {
+a {
     text-decoration: none;
     color: var(--sada);
     font-family: simply;
