@@ -176,5 +176,11 @@ a {
     .personLocation ,.JopInfo{
         font-size:small;
     }
+    .attribution {
+        color: var(--sada);
+        font-family: simply;
+        font-size: small;
+        margin-top: 10px;
+    }
 
 }
