@@ -155,5 +155,9 @@ a {
     .buttons{
         width: 80%;
     }
+    .card{
+        min-width: 18%;
+        padding: 8px 35px ;
+    }
     
 }
